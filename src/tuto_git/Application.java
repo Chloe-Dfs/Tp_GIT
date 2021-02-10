@@ -7,6 +7,7 @@ import java.awt.event.WindowEvent;
 public class Application extends Frame {
 
 	public static void main(String[] args) {
+		
 		new Application();
 	}
 	
@@ -22,6 +23,7 @@ public class Application extends Frame {
 		this.add(vue);
 		this.pack();
 		this.setVisible(true);
+		this.setLocationRelativeTo(null);
 		addWindowListener(new WindowAdapter()
         {
             @Override
